@@ -226,7 +226,7 @@ var defaultOptions = {
     kind: OptionKind.WORKER
   },
   workerSrc: {
-    value: "http://localhost:3000/js/pdfjs/build/pdf.worker.js",
+    value: "https://cdn.jsdelivr.net/gh/dcgalicia/pdfjs-build-minified-legacy-viewer@2.12.16/minified-legacy/build/pdf.worker.js",
     kind: OptionKind.WORKER
   }
 };
@@ -240,7 +240,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER
   };
   defaultOptions.sandboxBundleSrc = {
-    value: "http://localhost:3000/js/pdfjs/build/pdf.sandbox.js",
+    value: "https://cdn.jsdelivr.net/gh/dcgalicia/pdfjs-build-minified-legacy-viewer@2.12.16/minified-legacy/build/pdf.sandbox.js",
     kind: OptionKind.VIEWER
   };
   defaultOptions.renderer.kind += OptionKind.PREFERENCE;
